@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+    - name: claybford
+      url-base: https://github.com/claybford
+  projects:
+    - name: zmk
+      remote: claybford #petejohanson
+      revision: feat/pointers-move-scroll
+      import: app/west.yml
+    - name: cirque-input-module
+      remote: petejohanson
+      revision: main
+  self:
+    path: config

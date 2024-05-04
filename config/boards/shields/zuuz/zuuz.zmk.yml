@@ -1,0 +1,12 @@
+file_format: "1"
+id: zuuz
+name: Zuuz
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - zuuz_left
+  - zuuz_right
